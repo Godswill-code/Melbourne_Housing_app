@@ -14,7 +14,7 @@ st.markdown('<style>div.block-container{padding-top:2rem;}<style>', unsafe_allow
 df = pd.read_csv("melbourne.csv")
 
 
-st.sidebar.image("data/mel.png", caption="Melbourne suburbs Analytics")
+#st.sidebar.image("data/mel.png", caption="Melbourne suburbs Analytics")
 
 #Data cleaning
 #Missing value(mean imputation for numerical columns)
